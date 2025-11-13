@@ -71,3 +71,9 @@ cat index.html
 echo "RETOUR MAIN"
 git checkout main
 cat index.html
+
+git checkout -b hotfix
+echo 'Fix broken email address' >> index.html
+git commit -a -m 'Fix broken email address'
+git checkout master
+git merge hotfix
