@@ -18,16 +18,27 @@ git commit -m 'commit 1'
 git log
 git status
 
+
 echo "commit2" >>README
+cat README
 git add README
 git commit -m 'commit 2'
 git log
 git status
 
 echo "commit3" >>README
+cat README
 git add README
 git commit -m 'commit 3'
 git log
 git status
 
+git branch testing
+git checkout testing
+
+echo "commit4" >>README
 cat README
+git add README
+git commit -m 'commit 4'
+git log
+git status
