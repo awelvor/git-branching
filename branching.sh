@@ -42,3 +42,6 @@ git add README
 git commit -m 'commit 4'
 git log
 git status
+
+git checkou main
+cat README
