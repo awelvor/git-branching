@@ -77,3 +77,4 @@ echo 'Fix broken email address' >> index.html
 git commit -a -m 'Fix broken email address'
 git checkout master
 git merge hotfix
+cat index.html
