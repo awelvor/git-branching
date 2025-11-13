@@ -32,6 +32,7 @@ git add README
 git commit -m 'commit 3'
 git log
 git status
+echo "step1"
 
 git branch testing
 git checkout testing
@@ -42,6 +43,6 @@ git add README
 git commit -m 'commit 4'
 git log
 git status
-echo "BRANC MAIN"
+echo "BRANCH MAIN"
 git checkout main
 cat README
