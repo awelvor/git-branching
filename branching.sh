@@ -35,13 +35,13 @@ git status
 
 git branch testing
 git checkout testing
-
+echo "BRANCH TESTING"
 echo "commit4" >>README
 cat README
 git add README
 git commit -m 'commit 4'
 git log
 git status
-
-git checkou main
+echo "BRANC MAIN"
+git checkout main
 cat README
