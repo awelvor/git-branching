@@ -49,3 +49,5 @@ echo "BRANCH MAIN"
 git checkout main
 echo "retour en arriere: commits 2,3"
 cat README
+
+git log --oneline --decorate --graph --all
