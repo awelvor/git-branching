@@ -1,5 +1,5 @@
-name: gnulinuxmag
-run-name: exemple.yml
+name: branching
+run-name: branching
 on: push
 jobs:
   etape1:
