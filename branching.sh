@@ -29,3 +29,5 @@ git add README
 git commit -m 'commit 3'
 git log
 git status
+
+cat README
