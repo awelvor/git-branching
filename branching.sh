@@ -38,11 +38,14 @@ git branch testing
 git checkout testing
 echo "BRANCH TESTING"
 echo "commit4" >>README
+echo "commits 2,3,4"
 cat README
 git add README
+
 git commit -m 'commit 4'
 git log
 git status
 echo "BRANCH MAIN"
 git checkout main
+echo "retour en arriere: commits 2,3"
 cat README
