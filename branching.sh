@@ -17,3 +17,15 @@ git add README test.rb LICENSE
 git commit -m 'commit 1'
 git log
 git status
+
+echo "commit2" >>README
+git add README
+git commit -m 'commit 2'
+git log
+git status
+
+echo "commit3" >>README
+git add README
+git commit -m 'commit 3'
+git log
+git status
