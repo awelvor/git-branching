@@ -68,3 +68,6 @@ echo "Create new footer [issue 53]" >> index.html
 git add index.html
 git commit -m "git commit -a -m 'Create new footer [issue 53]'"
 cat index.html
+echo "RETOUR MAIN"
+git checkout main
+cat index.html
