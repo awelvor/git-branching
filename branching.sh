@@ -58,7 +58,7 @@ git commit -m"add c0"
 echo "c1" >> index.html
 git add index.html
 git commit -m"add c1"
-echo "c2" >index.html
+echo "c2" >> index.html
 git add index.html
 git commit -m"add c2"
 cat index.html
