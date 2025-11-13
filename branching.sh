@@ -51,7 +51,7 @@ echo "retour en arriere: commits 2,3"
 cat README
 
 git log --oneline --decorate --graph --all
-
+echo "BASIC BRANCHING AND MERGIN"
 echo "c0" >index.html
 git add index.html
 git commit -m"add c0"
@@ -61,4 +61,10 @@ git commit -m"add c1"
 echo "c2" >> index.html
 git add index.html
 git commit -m"add c2"
+cat index.html
+
+git checkout -b iss53
+echo "Create new footer [issue 53]" >> index.html
+git add index.html
+git commit -m "git commit -a -m 'Create new footer [issue 53]'"
 cat index.html
