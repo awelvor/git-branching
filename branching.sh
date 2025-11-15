@@ -85,3 +85,4 @@ git commit -a -m 'Finish the new footer [issue 53]'
 git checkout main
  git merge iss53
  git status
+ git mergetool
