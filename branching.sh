@@ -75,6 +75,6 @@ cat index.html
 git checkout -b hotfix
 echo 'Fix broken email address' >> index.html
 git commit -a -m 'Fix broken email address'
-git checkout master
+git checkout main
 git merge hotfix
 cat index.html
