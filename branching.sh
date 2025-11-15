@@ -78,3 +78,9 @@ git commit -a -m 'Fix broken email address'
 git checkout main
 git merge hotfix
 cat index.html
+
+git branch -d hotfix
+git checkout iss53
+git commit -a -m 'Finish the new footer [issue 53]'
+git checkout master
+ git merge iss53
