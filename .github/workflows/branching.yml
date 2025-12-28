@@ -1,11 +1,12 @@
-name: branching
-run-name: branching
-on: push
+---
+name: tuto
+"on": push
 jobs:
-  etape1:
+  check_tuto:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v6
-      - run: bash branching.sh
+      - uses: actions/checkout@v6
+      - run: yamllint .github/workflows/tuto.yml
+      - run: yamllint _config.yml
+      - run: bash branchig.sh
       - run: echo "end of file"
