@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - run: yamllint .github/workflows/tuto.yml
-      - run: yamllint _config.yml
+      - run: yamllint .github/workflows/branching.yml
       - run: bash branchig.sh
       - run: echo "end of file"
